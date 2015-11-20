@@ -13,6 +13,11 @@
       There are currently no job openings.
     </p>
   <?php else: ?>
+    <div class="job-opening heading row">
+      <h4 class="col-xs-3">Title</h4>
+      <h4 class="col-xs-3">Department</h4>
+      <h4 class="col-xs-6">Description</h4>
+    </div>
     <?php while(have_posts()) : the_post(); ?>
       <div class="job-opening row">
         <div class="col-xs-3">
