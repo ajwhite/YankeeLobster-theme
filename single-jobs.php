@@ -12,13 +12,17 @@
   <div class="job-description">
     <?php the_content(); ?>
   </div>
+
+  <div class="application-form">
+    <?php gravity_form('jobs', false, false, false, array(/* may be able to bypass custom injection */), true); ?>
+  </div>
 </section>
 
 <script type="text/javascript">
 (function ($) {
   $(document).ready(function () {
     // inject the post ID of the job
-    $('.job-description form').applicationForm({
+    $('.application-form form').applicationForm({
       jobId: '<?php the_ID(); ?>',
       jobFieldName: 'job-id'
     });
