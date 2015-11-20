@@ -70,7 +70,7 @@ p {
 .pictureNav .active {
 	background-color: rgba(101, 101, 101, 0.5) !important;
 	color: #fff !important;
-} 
+}
 
 input[type=text], input[type=number], input[type=button], input[type=password], input[type=email]  textarea, select {
 	font-family: 'Cantarell', serif !important;
@@ -89,7 +89,7 @@ select {
 	background-repeat: no-repeat;
 	/*background-position: 93% 5px ; */
 	background-position: 93% 13px ;
-	padding-right: 20px; 
+	padding-right: 20px;
 
 }
 
@@ -112,19 +112,19 @@ select {
 	text-decoration: none;
 	border: 1px solid rgba(255, 255, 255, 0.5);
 	-webkit-transform: none;
-	
+
 }
 
 form {
 	color: #9c9c9c;
 }
 
-hr { 
-	display: block; 
+hr {
+	display: block;
 	height: 1px;
-    border: 0; 
+    border: 0;
     border-top: 1px solid #aa2d12;
-    margin: 1em 0; 
+    margin: 1em 0;
     padding: 0;
 }
 
@@ -136,9 +136,9 @@ hr {
 	background-color: lime;
 }
 
-body {	
+body {
 	background:url(assets/images/bg.jpg);
-	background-repeat: repeat;	
+	background-repeat: repeat;
 }
 
 header {
@@ -152,7 +152,7 @@ button:active, button:focus, select:active {
 
 /*
 
-#home-header {	
+#home-header {
 	background-image: url(assets/clouds.png);
 	background-repeat: no-repeat;
 	background-position-x: 50%;
@@ -160,8 +160,8 @@ button:active, button:focus, select:active {
 
 */
 
- 
-.header-top {	
+
+.header-top {
 	height: 76px;
 	font-family: "chalkduster";
 	font-size: 12px;
@@ -189,7 +189,7 @@ button:active, button:focus, select:active {
 #order-text {
 		color: white;
 		text-transform: uppercase;
-		text-decoration: underline;	
+		text-decoration: underline;
 		display: block;
 		margin-bottom: 10px;
 }
@@ -197,7 +197,7 @@ button:active, button:focus, select:active {
 #phone-num {
 	color: #c13112;
 	font-size: 14px;
-	display: block;	
+	display: block;
 }
 
 
@@ -211,8 +211,8 @@ button:active, button:focus, select:active {
 	background: url(assets/main.png);
 	height: 582px;
 	padding: 2px;
-	
-	
+
+
 }
 
 
@@ -230,7 +230,7 @@ button:active, button:focus, select:active {
 #owl-demo {
 	padding-left: 0;
 	padding-right: 0;
-	height: 578px !important;	
+	height: 578px !important;
 }
 
 
@@ -267,7 +267,7 @@ button:active, button:focus, select:active {
 
 .prev {
 	background-image: url(assets/images/prev.png);
-	left: 5%;	
+	left: 5%;
 }
 
 .next {
@@ -300,7 +300,7 @@ button:active, button:focus, select:active {
 	width: 960px;
 	height: 582px;
 	background-color: rgba(0,0,0,0.5);
-	
+
 }
 
 .homeNavBar ul {
@@ -310,7 +310,7 @@ button:active, button:focus, select:active {
 	padding-left: 5px;
 	margin-top: 0;
 	margin-bottom: 0;
-	
+
 }
 
 .homeNavBar ul li {
@@ -321,7 +321,7 @@ button:active, button:focus, select:active {
 	float: left;
 	margin-left: 1px;
 	margin-right: 1px;
-	
+
 }
 
 .homeNavBar {
@@ -361,7 +361,7 @@ button:active, button:focus, select:active {
 }
 
 .normal-nav ul li a, .homeNavBar ul li a, .navButton {
-	
+
 	background-color: rgba(0,0,0,0.5);
 	height: 100%;
 	display: block;
@@ -399,7 +399,7 @@ button:active, button:focus, select:active {
 }
 
 .lastHomeNav {
-	width: 154px;	
+	width: 154px;
 }
 
 #lobstahh {
@@ -407,11 +407,11 @@ button:active, button:focus, select:active {
 	display: block;
 	position: absolute;
 	margin-left: 280px;
-	margin-top: 115px;	
+	margin-top: 115px;
 }
 
 /*
-** Menu page 
+** Menu page
 */
 
 .menu-header {
@@ -420,7 +420,7 @@ button:active, button:focus, select:active {
 	font-size: 20px;
 	margin-bottom: 10px;
 	text-align: center;
-	
+
 }
 
 
@@ -469,7 +469,7 @@ button:active, button:focus, select:active {
 
 #middle-col {
 	padding-top: 80px;
-	
+
 	background-image: url(assets/images/claw.png);
 	background-repeat: no-repeat;
 	background-position: 50% -10px;
@@ -524,7 +524,7 @@ button:active, button:focus, select:active {
 	width: 50px;
 	font-size: 7px;
 	font-family: 'Cantarell', serif;
-	color: black;	
+	color: black;
 	margin-left: 211px;
 }
 
@@ -532,19 +532,19 @@ button:active, button:focus, select:active {
 
 
 /*
-** Home page main content 
+** Home page main content
 */
 
 #home-main-content {
-	
+
 	height: auto;
-	margin-bottom:5px;	
+	margin-bottom:5px;
 }
 
 #left-main {
-	
-	
-	
+
+
+
 }
 
 #right-main {
@@ -561,7 +561,7 @@ button:active, button:focus, select:active {
 	padding-bottom: 0;
 	padding-left: 0;
 	margin-bottom: 40px;
-	
+
 }
 
 #weekly-specials {
@@ -572,8 +572,8 @@ button:active, button:focus, select:active {
 	font-size: 24px;
 	z-index: 55;
 	margin-bottom: 10px;
-	
-	
+
+
 }
 
 #weekly-specials .wtxt {
@@ -586,11 +586,11 @@ button:active, button:focus, select:active {
 
 #weekly-specials span {
 	display: inline-block;
-	height: 30px; 
+	height: 30px;
 }
 
 #weekly-special-items {
-	
+
 	font-family: 'chalkduster';
 	color: #b41019;
 	list-style-type: none;
@@ -603,10 +603,10 @@ button:active, button:focus, select:active {
 }
 
 .special-price {
-	
+
 	font-family: 'chalkduster';
 	color: #fff;
-	
+
 }
 
 #right-main .row {
@@ -696,11 +696,11 @@ button:active, button:focus, select:active {
 
 
 .yelp-stars {
-	margin-top:5px; 
+	margin-top:5px;
 }
 
 .social-name {
-	
+
 	color: white;
 	font-family: 'Cantarell', serif;
 	font-size: 14px;
@@ -714,7 +714,7 @@ button:active, button:focus, select:active {
 
 .social-date {
 	color: #9c9c9c;
-	
+
 	text-align: left;
 	display: block;
 	width: 100%;
@@ -729,8 +729,8 @@ button:active, button:focus, select:active {
 #facebook-col .social-message img {
 	max-width: 80%;
 	display: block;
-	margin: 5px auto auto auto;  
-}	
+	margin: 5px auto auto auto;
+}
 
 
 .special-yel {
@@ -780,18 +780,18 @@ footer {
 }
 
 .footer-social-button {
-	
+
 	height: 30px;
 	width: 30px;
 	float: left;
 	margin-right: 3px;
 	background-image: url(assets/images/social-sprite.png);
-	
+
 }
 
 #insta-btn {
 	background-position: 0px 0px;
-	
+
 }
 
 #twit-btn {
@@ -806,7 +806,7 @@ footer {
 /*
 ***
 ***		Normal page header
-***		
+***
 ***
 */
 
@@ -845,7 +845,7 @@ footer {
 	width: 12.15%;
 	margin-left: 3px;
 	font-size: 14px;
-	
+
 }
 
 .normal-overlay {
@@ -859,14 +859,14 @@ footer {
 	position: absolute;
 	top: -70px;
 	left: 870px;
-		
-	
+
+
 }
 
 /*
 ***
 ***		About us page
-***		
+***
 ***
 */
 
@@ -927,7 +927,7 @@ footer {
 /*
 ***
 ***		Gallery page
-***		
+***
 ***
 */
 
@@ -993,7 +993,7 @@ footer {
 
 /*
 ***
-***		
+***
 ***		Store page
 ***
 */
@@ -1037,7 +1037,7 @@ footer {
 }
 
 .store-item {
-	
+
 	display: block;
 	text-decoration: none !important;
 }
@@ -1090,7 +1090,7 @@ footer {
 
 /*
 ***
-***		
+***
 ***		Product page
 ***
 */
@@ -1105,7 +1105,7 @@ footer {
 
 #product-info {
 	margin-bottom: 25px;
-	
+
 }
 
 #product-name {
@@ -1164,12 +1164,12 @@ footer {
 	font-size: 12px;
 	font-family: 'Cantarell', serif;
 	color: #fff !important;
-	padding: 12px 25px 12px 12px;	
+	padding: 12px 25px 12px 12px;
 	border-radius:4px;
-	
+
 	float: left;
 	background-position: 90% 15px;w
-	
+
 }
 
 #product-button-row {
@@ -1192,7 +1192,7 @@ footer {
 	font-size: 12px;
 	color: #aa2d12;
 	padding-top: 20px;
-	text-align: center; 
+	text-align: center;
 }
 .lob-prices .prices { text-align: center; }
 
@@ -1200,7 +1200,7 @@ footer {
 
 /*
 ***
-***		
+***
 ***		Contact Us
 ***
 */
@@ -1231,7 +1231,7 @@ footer {
 	width: 25%;
 	display: inline-block;
 	margin-left: 23%;
-	
+
 }
 
 #submit-button {
@@ -1275,7 +1275,7 @@ footer {
 
 /*
 ***
-***		
+***
 ***		Market Prices
 ***
 */
@@ -1291,7 +1291,7 @@ footer {
 	background-color: rgba(101, 101, 101, 0.2);
 	margin-left: auto;
 	margin-right: auto;
-	
+
 }
 
 
@@ -1302,8 +1302,8 @@ footer {
 	font-weight: normal;
 	line-height: 24px;
 	font-size: 24px;
-	
-	
+
+
 }
 
 .mp-redline {
@@ -1317,12 +1317,12 @@ footer {
 	list-style: none;
 	padding-left: 0;
 	max-height: 211px;
-	
+
 }
 
 .mp-item-list li {
 	width: 48%;
-	
+
 	margin-left: 8px;
 	float: left;
 }
@@ -1334,11 +1334,11 @@ footer {
 }
 
 .mp-item-list > li > div {
-	
+
 	position: relative;
 	float: left;
 	text-decoration: none;
-	
+
 	color: #aa2d12;
 }
 
@@ -1346,7 +1346,7 @@ footer {
 
 /*
 ***
-***		
+***
 ***		Checkout
 ***
 */
@@ -1388,7 +1388,7 @@ footer {
 	margin-bottom: 10px;
 	padding: 2px;
 	/*height: 350px;*/
-	
+
 }
 
 /*
@@ -1429,7 +1429,7 @@ footer {
 	text-align: center;
 	color: #9c9c9c;
 	border: 1px solid rgba(101, 101, 101, 0.2) !important;
-	
+
 }
 
 .step-btn:hover {
@@ -1444,12 +1444,12 @@ footer {
 .login-input {
 	height: 40px;
 	width: 200px;
-	
+
 	color: #9c9c9c;
 	margin-bottom: 20px;
 	display: block;
 	padding: 10px;
-	
+
 }
 
 #login-btn {
@@ -1493,7 +1493,7 @@ footer {
 	color: #9c9c9c;
 	font-family: 'Cantarell', serif;
 	font-size: 14px;
-	
+
 }
 
 .product-row .col-md-6 {
@@ -1536,7 +1536,7 @@ footer {
 
 /*
 ***
-***		
+***
 ***		Shopping Cart
 ***
 */
@@ -1575,7 +1575,7 @@ footer {
 .table-holder {
 	padding: 2px;
 	border: 1px solid rgba(101, 101, 101, 0.2);
-	
+
 }
 
 .cart-table th, .cart-table td {
@@ -1621,7 +1621,7 @@ footer {
 	display: inline-block;
 	background-color: rgba(101, 101, 101, 0.2);
 	margin: 0 2px 0 0 /* !important */ ;
-	border:none; 
+	border:none;
 }
 
 .cart-btn:hover {
@@ -1641,7 +1641,7 @@ footer {
 }
 
 .coupon-holder {
-	
+
 	height: 100%;
 	width: 100%;
 }
@@ -1655,7 +1655,7 @@ footer {
 	text-align: center;
 	height: 100%;
 	color: #aa2d12;
-	
+
 }
 
 #coupon-txt {
@@ -1664,7 +1664,7 @@ footer {
 	height: 100%;
 	font-family: 'Cantarell', serif;
 	font-size: 12px;
-	color: #fff;	
+	color: #fff;
 }
 
 #add-coupon {
@@ -1683,7 +1683,7 @@ footer {
 .shipping-holder {
 	border: 1px solid rgba(101, 101, 101, 0.2);
 	padding: 2px;
-	background-color:rgba(101, 101, 101, 0.2); 
+	background-color:rgba(101, 101, 101, 0.2);
 }
 
 .shipping-row {
@@ -1726,13 +1726,13 @@ footer {
 	text-align: center;
 	padding: 0;
 	margin-bottom: 20px;
-	border-radius: 5px;	
+	border-radius: 5px;
 }
 
 #quote-btn:hover {
 	color: #aa2d12;
 	background-color: rgba(0,0,0,0.5);
-	
+
 }
 
 
@@ -1740,7 +1740,7 @@ footer {
 	height: 100%;
 	/*background-color: rgba(101, 101, 101, 0.2);*/
 	padding-bottom: 10px;
-	
+
 }
 
 
@@ -1751,7 +1751,7 @@ footer {
 	padding-top: 10px;
 	font-family: 'Cantarell', serif;
 	font-size: 13px;
-	
+
 }
 
 .checkoutBtn {
@@ -1766,7 +1766,7 @@ footer {
 .checkoutBtn:hover {
 	background-color: rgba(223, 45, 36, 0.2);
 	border-color: black;
-	
+
 }
 
 
@@ -1788,7 +1788,7 @@ h1.pageTitle {
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 40px;
-	padding-top:10px; 
+	padding-top:10px;
 	font-family: 'Cantarell', serif;
 	font-size: 24px;
 	color: #fff;
@@ -1800,7 +1800,7 @@ h1.pageTitle {
 h2 {
 	border-top: 1px solid #aa2d12;
 	margin-top: 20px;
-	padding-top:10px; 
+	padding-top:10px;
 	font-family: 'Cantarell', serif;
 	font-size: 24px;
 	color: #fff;
@@ -1844,7 +1844,7 @@ h2 {
 #payment_form_ccsave .input-box:after { clear:both; }
 
 li.fields:before,
-li.fields:after { 
+li.fields:after {
 	content: " ";
 	display: table;
 }
@@ -1880,7 +1880,7 @@ input[type=password].validation-failed,
 input[type=email].validation-faield,
 select.validation-failed,
 input.error, select.error, textarea.error {
-	border: 1px dashed #ea1621; 
+	border: 1px dashed #ea1621;
 }
 .validation-advice, label.error { color: #ea1621; font-size: 12px; }
 .error-msg { color:#ea1621; }
@@ -1902,12 +1902,12 @@ input.error, select.error, textarea.error {
 .page-entry img { margin: 10px; }
 .page-entry p {
 	font-family: 'Cantarell', serif;
-	
+
 	font-size: 12px;
 	line-height: 18px;
 	font-weight: 200;
 	text-indent: 40px;
-	
+
 }
 
 /* Credit Card */
@@ -1943,7 +1943,7 @@ table td, table th { padding: 4px; }
 #hoursLocation .address { color:#fff; }
 
 #map_canvas {
-margin: 30px 0 10px; 
+margin: 30px 0 10px;
 width: 100%;
 height:290px;
 background-color: #CCC;
@@ -1966,12 +1966,31 @@ background-color: #CCC;
 #messages_product_view { padding: 10px; text-align:center; color:#ee2e24; }
 #messages_product_view ul { list-style:none; padding:0; margin:0; }
 /*
-.product-options .chosen-container-single .chosen-single { 
-	padding: 6px 0 0 8px; height:39px; 
+.product-options .chosen-container-single .chosen-single {
+	padding: 6px 0 0 8px; height:39px;
 	background-color: rgba(101,101,101,0.2) !important;
-	border: 1px solid rgba(101, 101, 101, 0.2); 
-	box-shadow:none; 
+	border: 1px solid rgba(101, 101, 101, 0.2);
+	box-shadow:none;
 }
 .product-options .chosen-container-single .chosen-single div { top:8px; }
 */
 
+
+/* Jobs */
+.jobs.archive .job-opening.listing .title a {
+  color: #aa2d12;
+  font-weight: bold;
+}
+
+.jobs.single .byline {
+  text-align: center;
+}
+.jobs.single .application-form input[type=submit] {
+  background-color: #aa2d12;
+  color: #fff;
+}
+.jobs.single .job-description h3,
+.jobs.single .application-form h3 {
+  border-bottom: 1px solid #aa2d12;
+  padding-bottom: 5px;
+}

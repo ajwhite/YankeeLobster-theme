@@ -5,8 +5,12 @@
   the_post();
 ?>
 
-<section class="jobs">
+<section class="jobs single">
   <h1 class="pageTitle">Yankee Lobster Positions</h1>
+  <p class="byline">
+    Yankee Lobster Co. offers is expanding! We are offering a range of positions.<br/>
+    We welcome you to join our team.
+  </p>
 
   <div class="row">
     <!-- description -->
