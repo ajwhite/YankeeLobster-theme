@@ -11,7 +11,7 @@
 
   <?php the_content(); ?>
 
-  <form class="application-form" name="application">
+  <form id="application-form" name="application">
     Application form here
     - PDF upload
     - Basic input fields
