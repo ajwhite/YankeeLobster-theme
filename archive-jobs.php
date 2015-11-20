@@ -6,7 +6,7 @@
 
 <section class="jobs">
 
-  <h1 class="pageTitle">Job Openings</h1>
+  <h1 class="pageTitle">Yankee Lobster Positions</h1>
 
   <?php if (!have_posts()): ?>
     <p>

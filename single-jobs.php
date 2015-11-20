@@ -6,15 +6,25 @@
 ?>
 
 <section class="jobs">
+  <h1 class="pageTitle">Yankee Lobster Positions</h1>
 
-  <h1 class="pageTitle">Job Opening: <?php the_title; ?></h1>
+  <div class="row">
+    <!-- description -->
+    <div class="col-md-8 job-description">
+      <h3><?php the_title(); ?></h3>
+      <div class="department">
+        <h4><?php the_field('department'); ?></h4>
+      </div>
+      <div class="content">
+        <?php the_content(); ?>
+      </div>
+    </div>
 
-  <div class="job-description">
-    <?php the_content(); ?>
-  </div>
-
-  <div class="application-form">
-    <?php gravity_form('jobs', false, false, false, array(/* may be able to bypass custom injection */), true); ?>
+    <!-- application -->
+    <div class="col-md-4 application-form">
+      <h3>Apply Today!</h3>
+      <?php gravity_form(1, false, false, false, array(/* may be able to bypass custom injection */), true); ?>
+    </div>
   </div>
 </section>
 
