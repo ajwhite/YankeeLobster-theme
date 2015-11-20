@@ -351,4 +351,23 @@ function register_custom_post_types(){
 		'has_archive'		=> true
 	);
 	register_post_type('gallery', $postType);
+
+	$postType = array(
+		'labels' => array(
+			'name' => 'Job Openings',
+			'singular_name' => 'Job Opening',
+			'edit_item' => 'Edit Job Opening',
+			'view_item' => 'View Job Opening',
+			'menu_name' => 'Jobs'
+		),
+		'public' => true,
+		'capability_type' => 'post',
+		'show_ui' => true,
+		'hierarchical' => true,
+		'rewrite' => array('slug' => 'jobs'),
+		'supports' => array('title', 'editor', 'revisions'),
+		'show_in_nav_menus' => true,
+		'has_archive' => true
+	);
+	register_post_type('jobs', $postType);
 }
