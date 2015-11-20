@@ -9,13 +9,21 @@
 
   <h1 class="pageTitle">Job Opening: <?php the_title; ?></h1>
 
-  <?php the_content(); ?>
-
-  <form id="application-form" name="application">
-    Application form here
-    - PDF upload
-    - Basic input fields
-  </form>
+  <div class="job-description">
+    <?php the_content(); ?>
+  </div>
 </section>
+
+<script type="text/javascript">
+(function ($) {
+  $(document).ready(function () {
+    // inject the post ID of the job
+    $('.job-description form').applicationForm({
+      jobId: '<?php the_ID(); ?>',
+      jobFieldName: 'job-id'
+    });
+  });
+}).call(this, jQuery);
+</script>
 
 <?php get_footer(); ?>

@@ -1,10 +1,22 @@
 (function ($) {
-  var APPLICATION_FORM = '#application-form';
-  var $element = $(APPLICATION_FORM);
+  var DEFAULT_OPTIONS = {
+    jobFieldName: 'job-id',
+    jobId: null
+  };
 
-  // @TODO
-  // integrate bindings
-  // integrate file upload
+  function ApplicationForm (element, options) {
+    this.$element = $(element);
+    this.options = $.extend({}, DEFAULT_OPTIONS, options);
+    this.bind();
+  }
 
-  $(document).ready(buildApplicationForm);
+  ApplicationForm.prototype.bind = function () {
+    this.$element.find(this.options.jobFieldName).val(this.options.jobId);
+  };
+
+  $.fn.applicationForm = function (options) {
+    return this.each(function () {
+      return $(this).data('applicationForm', new ApplicationForm(this, options || {}));
+    });
+  };
 }).call(this, jQuery);
