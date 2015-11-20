@@ -89,6 +89,24 @@ function getGallery(){
 	return $gallery;
 }
 
+function getJobOpenings() {
+	$query = new WP_Query(array(
+		'post_type' => 'jobs',
+		'orderby' => 'menu_order title',
+		'order' => 'ASC'
+	));
+
+	$jobs = array();
+	while ($query->have_posts()) {
+		$query->the_post();
+		$jobs[] = array(
+			'title' => get_the_title(),
+			'content' => apply_filters('the_content', get_the_content()),
+		);
+	}
+	return $jobs;
+}
+
 
 function submitContactForm(){
 	$nonce = $_POST['nonce'];
