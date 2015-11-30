@@ -27,7 +27,16 @@
     <!-- application -->
     <div class="col-md-4 application-form">
       <h3>Apply Today!</h3>
-      <?php gravity_form(1, false, false, false, array(/* may be able to bypass custom injection */), true); ?>
+      <?php
+        gravity_form(
+          1,
+          false,
+          false,
+          false,
+          array('job' => '123'),
+          true
+        );
+      ?>
     </div>
   </div>
 </section>
