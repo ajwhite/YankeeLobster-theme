@@ -33,7 +33,7 @@
           false,
           false,
           false,
-          array('job' => '123'),
+          array('job' => get_the_title() . ' (ID ' . get_the_ID() . ')'),
           true
         );
       ?>
