@@ -7,6 +7,10 @@
 <section class="jobs archive">
 
   <h1 class="pageTitle">Yankee Lobster Positions</h1>
+  <p class="byline">
+    Yankee Lobster Co. offers is expanding! We are offering a range of positions.<br/>
+    We welcome you to join our team.
+  </p>
 
   <?php if (!have_posts()): ?>
     <p>
