@@ -1994,3 +1994,31 @@ background-color: #CCC;
   border-bottom: 1px solid #aa2d12;
   padding-bottom: 5px;
 }
+.jobs.single .application-form .gfield_label .gfield_required {
+  display: none;
+}
+.jobs.single .application-form .gform_footer input[type=submit] {
+  width: 100%;
+}
+
+/* Job Form */
+.gform_wrapper ul.gform_fields {
+  padding: 0;
+  margin: 0;
+  list-style:none;
+}
+.gform_wrapper .gfield {
+  margin-bottom: 20px;
+}
+.gform_wrapper .gfield_label  {
+  font-weight: bold;
+  margin-bottom: 5px;
+  display: block;
+}
+.gform_wrapper .gfield .ginput_container input {
+  width: 100%;
+}
+.gform_wrapper .gfield.gfield_error .validation_message,
+.gform_wrapper .validation_error {
+  color: #aa2d12;
+}
