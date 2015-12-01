@@ -1977,6 +1977,9 @@ background-color: #CCC;
 
 
 /* Jobs */
+.jobs.archive .job-opening.listing {
+  margin-bottom: 10px;
+}
 .jobs.archive .job-opening.listing .title a {
   color: #aa2d12;
   font-weight: bold;
