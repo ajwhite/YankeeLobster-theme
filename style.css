@@ -310,18 +310,17 @@ button:active, button:focus, select:active {
 	padding-left: 5px;
 	margin-top: 0;
 	margin-bottom: 0;
+  display: flex;
 
 }
 
 .homeNavBar ul li {
 	list-style: none;
 	height: 100%;
-	width: 12.15%;
 	display: block;
-	float: left;
 	margin-left: 1px;
 	margin-right: 1px;
-
+  flex: 1;
 }
 
 .homeNavBar {
@@ -350,14 +349,15 @@ button:active, button:focus, select:active {
 	margin-top: 0;
 	margin-bottom: 0;
 	padding-left: 1px;
+  display: flex;
 }
 
 .normal-nav ul li {
 	display: block;
-	width: 12.15%;
 	height: 92%;
 	float: left;
 	margin-right: 3px;
+  flex: 1;
 }
 
 .normal-nav ul li a, .homeNavBar ul li a, .navButton {
