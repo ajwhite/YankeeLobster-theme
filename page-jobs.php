@@ -1,16 +1,16 @@
 <?php
-  /* Job Openings - Archive Page */
+  /* Template Name: Jobs */
 
   get_header();
+  $jobs = get_posts(array('post_type' => 'jobs'));
 ?>
 
 <section class="jobs archive">
 
-  <h1 class="pageTitle">Yankee Lobster Positions</h1>
-  <p class="byline">
-    Yankee Lobster Co. offers is expanding! We are offering a range of positions.<br/>
-    We welcome you to join our team.
-  </p>
+  <h1 class="pageTitle"><?php the_title(); ?></h1>
+  <div class="byline">
+    <?php the_content(); ?>
+  </div>
 
   <?php if (!have_posts()): ?>
     <p>
@@ -22,7 +22,7 @@
       <h4 class="col-xs-3 department">Department</h4>
       <h4 class="col-xs-6 description">Description</h4>
     </div>
-    <?php while(have_posts()) : the_post(); ?>
+    <?php foreach ($jobs as $post): setup_postdata($post); ?>
       <div class="job-opening listing row">
         <div class="col-xs-3 title">
           <a href="<?php the_permalink(); ?>" title="Job opening: <?php the_title(); ?>"><?php the_title(); ?></a>
@@ -34,7 +34,7 @@
           <?php echo get_the_excerpt(); ?>
         </div>
       </div>
-    <?php endwhile; ?>
+    <?php endforeach; wp_reset_postdata(); ?>
 <?php endif; ?>
 
 </section>

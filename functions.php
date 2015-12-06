@@ -385,7 +385,7 @@ function register_custom_post_types(){
 		'rewrite' => array('slug' => 'jobs'),
 		'supports' => array('title', 'editor', 'revisions', 'excerpt'),
 		'show_in_nav_menus' => true,
-		'has_archive' => true
+		'has_archive' => false
 	);
 	register_post_type('jobs', $postType);
 }
