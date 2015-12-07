@@ -141,10 +141,10 @@ function set_html_content_type() {
 
 
 function getYelpReviews(){
-	$consumer_key	= get_option('yelp_consumer_key', 'option');
-	$consumer_secret = get_option('yelp_consumer_secret', 'option');
-	$token = get_option('yelp_access_token', 'option');
-	$token_secret = get_option('yelp_access_token_secret', 'option');
+	$consumer_key	= get_field('yelp_consumer_key', 'option');
+	$consumer_secret = get_field('yelp_consumer_secret', 'option');
+	$token = get_field('yelp_access_token', 'option');
+	$token_secret = get_field('yelp_access_token_secret', 'option');
 
 	$token = new OAuthToken($token, $token_secret);
 	$consumer = new OAuthConsumer($consumer_key, $consumer_secret);
@@ -186,10 +186,10 @@ function getFacebookPost(){
 
 
 function getLatestTweets(){
-	$consumerKey = get_option('twitter_consumer_key', 'option');
-	$consumerSecret = get_option('twitter_consumer_secret', 'option');
-	$accessToken = get_option('twitter_access_token', 'option');;
-	$accessSecret = get_option('twitter_access_token_secret', 'option');
+	$consumerKey = get_field('twitter_consumer_key', 'option');
+	$consumerSecret = get_field('twitter_consumer_secret', 'option');
+	$accessToken = get_field('twitter_access_token', 'option');;
+	$accessSecret = get_field('twitter_access_token_secret', 'option');
 	$connection = new TwitterOAuth($consumerKey, $consumerSecret, $accessToken, $accessSecret);
 
 	$username = "yankeelobster";
@@ -385,7 +385,7 @@ function register_custom_post_types(){
 		'rewrite' => array('slug' => 'jobs'),
 		'supports' => array('title', 'editor', 'revisions', 'excerpt'),
 		'show_in_nav_menus' => true,
-		'has_archive' => true
+		'has_archive' => false
 	);
 	register_post_type('jobs', $postType);
 }

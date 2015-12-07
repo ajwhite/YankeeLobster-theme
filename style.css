@@ -310,18 +310,17 @@ button:active, button:focus, select:active {
 	padding-left: 5px;
 	margin-top: 0;
 	margin-bottom: 0;
+  display: flex;
 
 }
 
 .homeNavBar ul li {
 	list-style: none;
 	height: 100%;
-	width: 12.15%;
 	display: block;
-	float: left;
 	margin-left: 1px;
 	margin-right: 1px;
-
+  flex: 1;
 }
 
 .homeNavBar {
@@ -350,14 +349,15 @@ button:active, button:focus, select:active {
 	margin-top: 0;
 	margin-bottom: 0;
 	padding-left: 1px;
+  display: flex;
 }
 
 .normal-nav ul li {
 	display: block;
-	width: 12.15%;
 	height: 92%;
 	float: left;
 	margin-right: 3px;
+  flex: 1;
 }
 
 .normal-nav ul li a, .homeNavBar ul li a, .navButton {
@@ -1977,12 +1977,15 @@ background-color: #CCC;
 
 
 /* Jobs */
+.jobs.archive .job-opening.listing {
+  margin-bottom: 10px;
+}
 .jobs.archive .job-opening.listing .title a {
   color: #aa2d12;
   font-weight: bold;
 }
 
-.jobs.single .byline {
+.jobs .byline {
   text-align: center;
 }
 .jobs.single .application-form input[type=submit] {
@@ -1993,4 +1996,32 @@ background-color: #CCC;
 .jobs.single .application-form h3 {
   border-bottom: 1px solid #aa2d12;
   padding-bottom: 5px;
+}
+.jobs.single .application-form .gfield_label .gfield_required {
+  display: none;
+}
+.jobs.single .application-form .gform_footer input[type=submit] {
+  width: 100%;
+}
+
+/* Job Form */
+.gform_wrapper ul.gform_fields {
+  padding: 0;
+  margin: 0;
+  list-style:none;
+}
+.gform_wrapper .gfield {
+  margin-bottom: 20px;
+}
+.gform_wrapper .gfield_label  {
+  font-weight: bold;
+  margin-bottom: 5px;
+  display: block;
+}
+.gform_wrapper .gfield .ginput_container input {
+  width: 100%;
+}
+.gform_wrapper .gfield.gfield_error .validation_message,
+.gform_wrapper .validation_error {
+  color: #aa2d12;
 }
