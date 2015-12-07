@@ -6,7 +6,7 @@
 
 <section class="jobs single">
   <?php $jobPage = get_post(array('slug' => 'jobs')); ?>
-  <?php setup_postdata($jobPage); ?>
+  <?php setup_postdata($jobPage[0]); ?>
   <h1 class="pageTitle"><?php the_title(); ?></h1>
   <div class="byline"><?php the_content(); ?></div>
   <?php wp_reset_postdata(); the_post(); ?>
