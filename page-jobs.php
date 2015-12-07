@@ -12,7 +12,7 @@
     <?php the_content(); ?>
   </div>
 
-  <?php if (!have_posts()): ?>
+  <?php if (empty($jobs)): ?>
     <p>
       There are currently no job openings.
     </p>
