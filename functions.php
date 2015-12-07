@@ -382,10 +382,10 @@ function register_custom_post_types(){
 		'capability_type' => 'post',
 		'show_ui' => true,
 		'hierarchical' => true,
-		'rewrite' => array('slug' => 'jobs'),
+		'rewrite' => array('slug' => 'job'),
 		'supports' => array('title', 'editor', 'revisions', 'excerpt'),
 		'show_in_nav_menus' => true,
-		'has_archive' => false
+		'has_archive' => true
 	);
 	register_post_type('jobs', $postType);
 }
