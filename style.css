@@ -2018,7 +2018,8 @@ background-color: #CCC;
   margin-bottom: 5px;
   display: block;
 }
-.gform_wrapper .gfield .ginput_container input {
+.gform_wrapper .gfield .ginput_container input,
+.gform_wrapper .gfield .ginput_container input[type=file] {
   width: 100%;
 }
 .gform_wrapper .gfield.gfield_error .validation_message,
