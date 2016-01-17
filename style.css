@@ -165,17 +165,19 @@ button:active, button:focus, select:active {
 	height: 76px;
 	font-family: "chalkduster";
 	font-size: 12px;
-	float: right;
-	width: 530px;
+	/*float: right;*/
+	/*width: 530px;*/
 }
 
 #orderTop,
 .caviar-merchant-widget-button-1,
+.door-dash,
 .on-the-road {
 	float:right;
 	margin-left: 40px;
 }
-.caviar-merchant-widget-button-1 {
+.caviar-merchant-widget-button-1,
+.door-dash {
 	margin-top: 13px;
 }
 .on-the-road {
