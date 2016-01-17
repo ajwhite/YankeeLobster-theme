@@ -2,14 +2,14 @@
   /* Job Openings - Single Page */
 
   get_header();
+  $jobPage = get_posts(array('name' => 'jobs', 'post_type' => 'page', 'post_status' => 'publish','posts_per_page' => 1));
 ?>
 
 <section class="jobs single">
-  <?php $jobPage = get_post(array('slug' => 'jobs')); ?>
-  <?php setup_postdata($jobPage[0]); ?>
-  <h1 class="pageTitle"><?php the_title(); ?></h1>
-  <div class="byline"><?php the_content(); ?></div>
-  <?php wp_reset_postdata(); the_post(); ?>
+  <?php if ($jobPage): ?>
+  <h1 class="pageTitle"><?php echo $jobPage[0]->post_title; ?></h1>
+  <div class="byline"><?php echo apply_filters('the_content', $jobPage[0]->post_content); ?></div>
+  <?php endif; ?>
 
   <div class="row">
     <!-- description -->

@@ -1,5 +1,3 @@
-
-
 			<footer>
 				<div class="footer-top mainbg"></div>
 				
@@ -26,6 +24,43 @@
 	</div>
 	
 	<?php wp_footer(); ?>
+<script> 
+var pagename = location.pathname;
+if(pagename == '/menu/') { document.getElementsByClassName("row")[2].innerHTML = '<div id="menusContainer"></div>'; }
+</script>
+<script type="text/javascript" src="https://menus.singleplatform.co/businesses/storefront/?apiKey=ke09z8icq4xu8uiiccighy1bw">
+</script>
+<script>
+var pagename = location.pathname;
+if(pagename == '/menu/') {
+document.getElementById('menusContainer').innerHTML = '';
+document.getElementById('menusContainer').style.display = 'block';
+    var options = {};
+    options['PrimaryBackgroundColor'] = 'Transparent';
+    options['MenuDescBackgroundColor'] = 'Transparent';
+    options['SectionTitleBackgroundColor'] = 'Transparent';
+    options['SectionDescBackgroundColor'] = 'Transparent';
+    options['ItemBackgroundColor'] = 'Transparent';
+    options['PrimaryFontFamily'] = 'Arial';
+    options['BaseFontSize'] = '14px';
+    options['FontCasing'] = 'Default';
+    options['PrimaryFontColor'] = '#9c9c9c';
+    options['MenuDescFontColor'] = '#9c9c9c';
+    options['SectionTitleFontColor'] = '#ffffff';
+    options['SectionDescFontColor'] = '#ffffff';
+    options['ItemTitleFontColor'] = '#9c9c9c';
+    options['FeedbackFontColor'] = '#9c9c9c';
+    options['ItemDescFontColor'] = '#9c9c9c';
+    options['ItemPriceFontColor'] = '#9c9c9c';
+    options['HideDisplayOptionPhotos'] = 'true';
+    options['HideDisplayOptionFeedback'] = 'true';
+    options['HideDisplayOptionDisclaimer'] = 'true';
+    options['HideDisplayOptionClaim'] = 'true';
+    options['MenuTemplate'] = '2';
+    options['DisplayMenu']  = '589392';
+    new BusinessView("yankee-lobster-co", "menusContainer", options);
+    }
+</script>
 </body>
 
 </html>
