@@ -25,7 +25,9 @@
 				<a href="<?php the_field('food_network_url','option'); ?>" id="home-fnw" target="_blank" title="<?php the_field('food_network_title','option'); ?>"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/foodNetwork.png"/></a>
 			</div>
 			<div class="door-dash">
-				<a href="#"><img src="http://i.imgur.com/gJnOrRl.png" /></a>
+				<a href="https://www.doordash.com/?mid=3873">
+					<img src="<?php echo get_template_directory_uri(); ?>/assets/images/door-dash.png" />
+				</a>
 			</div>
 			<div class='caviar-merchant-widget-button-1'>
 				<div class='caviar-merchant-widget-content' style='text-align: center;'>
