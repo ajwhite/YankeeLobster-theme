@@ -24,11 +24,6 @@
 
 				<a href="<?php the_field('food_network_url','option'); ?>" id="home-fnw" target="_blank" title="<?php the_field('food_network_title','option'); ?>"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/foodNetwork.png"/></a>
 			</div>
-			<div class="door-dash">
-				<a href="https://www.doordash.com/?mid=3873">
-					<img src="<?php echo get_template_directory_uri(); ?>/assets/images/door-dash.png" />
-				</a>
-			</div>
 			<div class='caviar-merchant-widget-button-1'>
 				<div class='caviar-merchant-widget-content' style='text-align: center;'>
 					<a href="https://www.trycaviar.com/t/boston/yankee-lobster-co-2204?groups=f_online__d_dwidget-3-button-1__p_marketing__c_merchant-links&utm_medium=dwidget-3-button-1&utm_source=marketing&utm_campaign=merchant-links&utm_term=boston&utm_content=yankee-lobster-co-2204" class="caviar-merchant-widget-link-button-1" ><span>Yankee Lobster Co., delivered by Caviar</span></a>

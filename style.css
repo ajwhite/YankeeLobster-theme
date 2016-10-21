@@ -171,13 +171,11 @@ button:active, button:focus, select:active {
 
 #orderTop,
 .caviar-merchant-widget-button-1,
-.door-dash,
 .on-the-road {
 	float:right;
 	margin-left: 40px;
 }
-.caviar-merchant-widget-button-1,
-.door-dash {
+.caviar-merchant-widget-button-1 {
 	margin-top: 13px;
 }
 .on-the-road {
