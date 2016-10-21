@@ -61,6 +61,8 @@ document.getElementById('menusContainer').style.display = 'block';
     new BusinessView("yankee-lobster-co", "menusContainer", options);
     }
 </script>
+<script src="https://cf.chownowcdn.com/latest/static/integrations/ordering-modal.min.js" data-chownow-company-id="6141"></script>
+
 </body>
 
 </html>
