@@ -547,8 +547,7 @@ button:active, button:focus, select:active {
 
 }
 
-#right-main {
-	width: 32%;
+.announcement-box {
 	height: auto;
 	border: 3px solid #505050;
 	background-color: #272a2d;
@@ -559,58 +558,42 @@ button:active, button:focus, select:active {
 	border-radius: 25px;
 	padding: 15px;
 	padding-bottom: 0;
-	padding-left: 0;
 	margin-bottom: 40px;
-
 }
 
-#weekly-specials {
+.announcement-title {
 	display: block;
 	position: relative;
 	text-align: center;
 	font-family: 'chalkduster';
 	font-size: 24px;
 	z-index: 55;
-	margin-bottom: 10px;
-
-
+	margin-bottom: 5px;
 }
 
-#weekly-specials .wtxt {
+.announcement-title .wtxt {
 	border-bottom: 1px solid #fff;
 }
 
-#weekly-specials .rtxt {
+.announcement-title .rtxt {
 	border-bottom: 1px solid #aa2d12;
 }
 
-#weekly-specials span {
+.announcement-title span {
 	display: inline-block;
 	height: 30px;
 }
 
-#weekly-special-items {
-
-	font-family: 'chalkduster';
-	color: #b41019;
-	list-style-type: none;
-	padding-left: 10px;
-	font-weight: normal;
-}
-
-.special-name {
-	font-family: 'chalkduster';
-}
-
-.special-price {
-
+.announcement-content {
 	font-family: 'chalkduster';
 	color: #fff;
-
+	list-style-type: none;
+	font-weight: normal;
 }
-
-#right-main .row {
-	margin-bottom: 5px;
+.announcement-content p {
+  font-family: 'chalkduster';
+  color: #fff;
+  padding-top: 0;
 }
 
 #main-content {

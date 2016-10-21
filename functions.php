@@ -21,27 +21,6 @@ function timthumb($url, $args = array()){
 }
 
 
-function getWeeklySpecials(){
-	$query = new WP_Query(array(
-		'post_type'	=> 'weekly-specials',
-		'orderby'		=> 'menu_order title',
-		'order'			=> 'ASC'
-	));
-
-	$specials = array();
-	while($query->have_posts()){
-
-		$query->the_post();
-		$specials[] = array(
-			'name'	=> get_the_title(),
-			'price'	=> get_field('price')
-		);
-	}
-	wp_reset_postdata();
-	return $specials;
-}
-
-
 function getMarketPrices(){
 	$query = new WP_Query(array(
 		'post_type'	=> 'market-prices',
@@ -328,28 +307,6 @@ function register_custom_post_types(){
 		'has_archive'		=> true
 	);
 	register_post_type('market-prices', $postType);
-
-
-
-	$postType = array(
-		'labels'			=> array(
-			'name'			=> 'Weekly Specials',
-			'singular_name'	=> 'Weekly Special',
-			'edit_item'		=> 'Edit Weekly Special',
-			'view_item'		=> 'View Weekly Special',
-			'menu_name'		=> 'Weekly Specials'
-		),
-		'public'			=> true,
-		'capability_type'	=> 'post',
-		'show_ui'			=> true,
-		'hierarchical'		=> true,
-		'rewrite'			=> array('slug'	=> 'weekly-specials'),
-		'supports'			=> array('title','editor','revisions'),
-		'show_in_nav_menus'	=> true,
-		'has_archive'		=> false
-	);
-	register_post_type('weekly-specials', $postType);
-
 
 	$postType = array(
 		'labels'			=> array(

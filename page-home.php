@@ -2,6 +2,7 @@
 	/* Template Name: Home */
 
 	get_header('inc');
+	$announcements = get_field('announcements');
 ?>
 
 <style>
@@ -69,19 +70,18 @@
 
 		<div id ="main-content" class="row mainbg">
 
-			<div class="col-md-8" id="left-main">
-
-				<article class="new-entry" id="first-entry">
-					<hr/>
-					<?php the_content(); ?>
-				</article>
-
-
-
+			<div class="col-md-<?php echo count($announcements) > 0 ? 8 : 12; ?>" id="left-main">
+				<div class="row">
+					<article class="new-entry" id="first-entry">
+						<?php the_content(); ?>
+					</article>
+				</div>
 			</div>
 
-			<div class="col-md-4" id="right-main">
-				<?php echo get_sidebar('weekly-specials'); ?>
+			<div class="col-md-4">
+				<div class="row">
+					<?php echo get_sidebar('announcements'); ?>
+				</div>
 			</div>
 
 		</div>
