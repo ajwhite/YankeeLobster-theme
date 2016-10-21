@@ -40,16 +40,4 @@
   </div>
 </section>
 
-<script type="text/javascript">
-(function ($) {
-  $(document).ready(function () {
-    // inject the post ID of the job
-    $('.application-form form').applicationForm({
-      jobId: '<?php the_ID(); ?>',
-      jobFieldName: 'job-id'
-    });
-  });
-}).call(this, jQuery);
-</script>
-
 <?php get_footer(); ?>
