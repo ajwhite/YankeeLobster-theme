@@ -45,8 +45,12 @@
 				<?php endforeach; ?>
 				</div>
 				<div class="row">
-					<div class="col-md-4">
-						<img class="tripleD" src="<?php echo get_template_directory_uri(); ?>/assets/images/tripleD2.png" />
+          <div class="col-md-4">
+            <div class="menu-specials">
+              <img class="tripleD" src="<?php echo get_template_directory_uri(); ?>/assets/images/lobster-mac-cheese.png" />
+              <span class="lobster-mac-cheese"><?php the_field('lobster_mac_cheese'); ?></span>
+              <span class="cod-plate"><?php the_field('cod_cake_plate'); ?></span>
+            </div>
 					</div>
 					<div class="col-md-4">
 							

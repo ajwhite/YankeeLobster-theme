@@ -490,10 +490,32 @@ button:active, button:focus, select:active {
 	font-family: 'Cantarell', serif;
 }
 
-.tripleD {
-	height: 129px;
-	width: 100%;
-	margin-top: 20px;
+.menu-specials {
+  position: 'relative';
+}
+
+.menu-specials img {
+  height: 128px;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.menu-specials span {
+  position: absolute;
+  color: #fff;
+  font-size: 20px;
+  font-family: 'chalkduster';
+  font-style: italic;
+}
+
+.menu-specials span.lobster-mac-cheese {
+  top: 70px;
+  right: 90px;
+}
+
+.menu-specials span.cod-plate {
+  top: 103px;
+  right: 75px;
 }
 
 .BoC {
